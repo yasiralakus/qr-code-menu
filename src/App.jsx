@@ -16,7 +16,14 @@ export default function App() {
                         <li>Meksika Soslu Tavuk Dürüm <span>130₺</span></li>
                         <li>Cheddar Soslu Tavuk Dürüm <span>130₺</span></li>
                         <li>Köfte Dürüm <span>170₺</span></li>
-                        <li>Kumru Dürüm <span>130₺</span></li>
+                        <li>Köri Soslu Tavuk Dürüm <span>130₺</span></li>
+                        <li>
+                            <details>
+                                <summary><i className="fa-solid fa-caret-right"></i> Kumru Dürüm</summary>
+                                <p>Sosis, Sucuk, Salam, Kaşar</p>
+                            </details>
+                            <span>130₺</span>
+                        </li>
                     </ul>
                 </details>
 
