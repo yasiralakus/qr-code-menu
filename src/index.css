@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a { text-decoration: none; }
+
+li, summary { list-style: none;}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Poppins', sans-serif;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+#root, #__next {
+    isolation: isolate;
+}
+
+/* hazır kodlarım */
+
+.full-page {
+    width: 500px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.logo {
+    height: 150px;
+    padding: 16px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 16px;
+    > details {
+        > summary {
+            background-color: #EBEBEB;
+            text-align: center;
+            font-size: 18px;
+            letter-spacing: 1px;
+            line-height: 1;
+            font-weight: 500;
+            padding: 24px;
+        }
+        > ul {
+            padding: 16px 16px 0 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            > li {
+                display: flex;
+                justify-content: space-between;
+                font-size: 18px;
+                line-height: 1;
+                > details {
+                    > summary {
+                        display: flex;
+                        align-items: center;
+                        justify-content: start;
+                        gap: 8px;
+                        > i {
+                            line-height: 1;
+                            height: 12px;
+                            margin-bottom: 4px;
+                            transition: all .3s;
+                        }
+                    }
+                    > p {
+                        margin-top: 8px;
+                        font-size: 16px;
+                        line-height: 1.4;
+                        color: #ff9500;
+                    }
+                }
+                > details[open] {
+                    > summary {
+                        > i {
+                            margin-left: 3px;
+                            transform: rotate(90deg);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #000;
+    > div {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 16px;
+        gap: 8px;
+        > h3 {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        > p {
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+}
+
+.developing {
+    padding: 16px;
+    text-align: center;
+    border-top: 1px solid #000;
+    font-size: 14px;
+    color: rgba(0,0,0, 0.5);
+    letter-spacing: 1px;
+    > a {
+        color: #000;
+        font-weight: 500;
+    }
+}
