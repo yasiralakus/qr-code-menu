@@ -173,6 +173,8 @@ export default function App() {
                     </ul>
                 </details>
 
+                <a className="call" href="tel:+905414776162"><i className="fa-solid fa-phone"></i> Hemen Sipariş Ver</a>
+
             </main>
 
             <footer className="footer">

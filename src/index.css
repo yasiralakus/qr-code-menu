@@ -148,3 +148,17 @@ p, h1, h2, h3, h4, h5, h6 {
         font-weight: 500;
     }
 }
+
+.call {
+    background-color: #00BB00;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    gap: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1;
+    font-weight: 500;
+}
