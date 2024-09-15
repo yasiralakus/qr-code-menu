@@ -40,7 +40,7 @@ p, h1, h2, h3, h4, h5, h6 {
 /* hazır kodlarım */
 
 .full-page {
-    width: 500px;
+    max-width: 500px;
     margin: 0 auto;
     min-height: 100vh;
 }
@@ -74,7 +74,7 @@ p, h1, h2, h3, h4, h5, h6 {
             > li {
                 display: flex;
                 justify-content: space-between;
-                font-size: 18px;
+                font-size: 16px;
                 line-height: 1;
                 > details {
                     > summary {
@@ -142,6 +142,7 @@ p, h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
     color: rgba(0,0,0, 0.5);
     letter-spacing: 1px;
+    line-height: 1.5;
     > a {
         color: #000;
         font-weight: 500;
