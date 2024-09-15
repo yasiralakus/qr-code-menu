@@ -93,63 +93,63 @@ export default function App() {
                         <li>
                             <details>
                                 <summary><i className="fa-solid fa-caret-right"></i> 4'lü Doyuran Menü</summary>
-                                <p>4 Chicken Burger + Mega Boy Patates + 1 L İçecek + 4'lÜ Soğan Halkası</p>
+                                <p>4 Chicken Burger + Mega Boy Patates + 1 L İçecek + 4'lü Soğan Halkası</p>
                             </details>
                             <span>350₺</span>
                         </li>
                         <li>
                             <details>
                                 <summary><i className="fa-solid fa-caret-right"></i> İyi Doyduk Menü</summary>
-                                <p>2 Chicken Burger + 2 Köfte Burger + Mega Boy Patates + 1 L İçecek + 4'lÜ Soğan Halkası</p>
+                                <p>2 Chicken Burger + 2 Köfte Burger + Mega Boy Patates + 1 L İçecek + 4'lü Soğan Halkası</p>
                             </details>
                             <span>370₺</span>
                         </li>
                         <li>
                             <details>
                                 <summary><i className="fa-solid fa-caret-right"></i> Hepsinden Olsun Menü</summary>
-                                <p>Çiko Tavuk Burger + Chicken Burger + Köfte Burger + Mega Boy Patates + 1 L İçecek + 4'lÜ Soğan Halkası</p>
+                                <p>Çiko Tavuk Burger + Chicken Burger + Köfte Burger + Mega Boy Patates + 1 L İçecek + 4'lü Soğan Halkası</p>
                             </details>
                             <span>300₺</span>
                         </li>
                         <li>
                             <details>
                                 <summary><i className="fa-solid fa-caret-right"></i> 2'li Cheeseburger Menü</summary>
-                                <p>2 Cheeseburger + Orta Boy Patates + 1 L İçecek + 4'lÜ Soğan Halkası</p>
+                                <p>2 Cheeseburger + Orta Boy Patates + 1 L İçecek + 4'lü Soğan Halkası</p>
                             </details>
                             <span>350₺</span>
                         </li>
                         <li>
                             <details>
                                 <summary><i className="fa-solid fa-caret-right"></i> Efsane İkili Menü</summary>
-                                <p>2 Köfte Burger + Orta Boy Patates + 1 L İçecek + 4'lÜ Soğan Halkası</p>
+                                <p>2 Köfte Burger + Orta Boy Patates + 1 L İçecek + 4'lü Soğan Halkası</p>
                             </details>
                             <span>360₺</span>
                         </li>
                         <li>
                             <details>
                                 <summary><i className="fa-solid fa-caret-right"></i> Efsane Üçlü Menü</summary>
-                                <p>3 Köfte Burger + Mega Boy Patates + 1 L İçecek + 4'lÜ Soğan Halkası</p>
+                                <p>3 Köfte Burger + Mega Boy Patates + 1 L İçecek + 4'lü Soğan Halkası</p>
                             </details>
                             <span>430₺</span>
                         </li>
                         <li>
                             <details>
                                 <summary><i className="fa-solid fa-caret-right"></i> Hamburger Menü</summary>
-                                <p>Köfte Burger + Küçük Boy Patates + 330 ML İçecek + 4'lÜ Soğan Halkası</p>
+                                <p>Köfte Burger + Küçük Boy Patates + 330 ML İçecek + 4'lü Soğan Halkası</p>
                             </details>
                             <span>280₺</span>
                         </li>
                         <li>
                             <details>
                                 <summary><i className="fa-solid fa-caret-right"></i> Çocuk Burger Menü</summary>
-                                <p>Köfte Burger + Küçük Boy Patates + 330 ML İçecek + 4'lÜ Soğan Halkası</p>
+                                <p>Köfte Burger + Küçük Boy Patates + 330 ML İçecek + 4'lü Soğan Halkası</p>
                             </details>
                             <span>260₺</span>
                         </li>
                         <li>
                             <details>
                                 <summary><i className="fa-solid fa-caret-right"></i> 2'li Tavuk Burger Menü</summary>
-                                <p>2 Tavuk Burger + Küçük Boy Patates + 330 ML İçecek + 4'lÜ Soğan Halkası</p>
+                                <p>2 Tavuk Burger + Küçük Boy Patates + 330 ML İçecek + 4'lü Soğan Halkası</p>
                             </details>
                             <span>190₺</span>
                         </li>
